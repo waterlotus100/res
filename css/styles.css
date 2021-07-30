@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navigation Section  */
+.container-fluid {
+  font-family: "Poppins", sans-serif;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar {
+  padding: 1% 8%;
+  /* box-shadow: rgb(79 146 192 / 40%) 0px 0px 15px; */
+  box-shadow: #f6c6ea 0px 0px 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  font-family: "Merienda", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-right: 30px;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.span-p {
+  color: #f6c6ea;
+}
+
+/* .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+} */
+
+/* Title Section*/
+
+.title {
+  text-align: center;
+  padding: 5%;
+}
+
+.big-heading {
+  font-family: "Cormorant Upright", serif;
+  font-size: 6rem;
+  padding-top: 5%;
+}
+
+.big-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 1.5%;
+}
+
+/* Images Section */
+
+#images {
+  padding: 0 5%;
+  margin-bottom: 100px;
+}
+
+.card-box {
+  width: 100%;
+  height: 100%;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  padding: 10px;
+}
+
+/* hours & contact Section  */
+
+#hours {
+  padding: 0 15%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#contact {
+  padding: 0 10%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.contact-email {
+  text-decoration: none;
+}
+
+.info-text {
+  padding-top: 30px;
+}
+
+/* Google Map  */
+
+#direction {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.google-map {
+  /* text-align: center; */
+  /* padding-bottom: 100px; */
+}
+
+/* Menu Section  */
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-control-prev-icon {
+  background-color: #f5ebf2;
+}
+
+.carousel-control-next-icon {
+  background-color: #f5ebf2;
+}
+
+.menu-img {
+  width: 816px;
+  height: 544px;
+  margin-bottom: 100px;
+}
+
+.menu-text {
+  padding: 0 22%;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.menu-label {
+  padding-bottom: 10px;
+}
+
+.textareal {
+  resize: both;
+}
+
+/* Footer Section  */
+
+.copyright {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  margin-left: 30px;
+}
+
+@media (max-width: 700px) {
+  .menu-img {
+    width: 400px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 650px) {
+  .google-map {
+    width: 450px;
+    height: 330px;
+  }
+}
